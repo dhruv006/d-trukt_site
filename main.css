@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Candara';
+    src: url("Candara.ttf") format("truetype");
+}
+
+*{
+	box-sizing: border-box;
+	background-color: black;
+	font-family: 'Candara', Fallback, sans-serif;
+}
+
+.text{
+	color: green;
+}
+
+.txtcenter{
+  text-align: center;
+}
+
+.txtright{
+	color:green;
+	text-align: right;
+}
+
+.shoptxt{
+	color: green;
+	text-align: center;
+}
+
+span { width:95%; display:inline-block; }
+span.align-right { text-align:right; }
+
+span.center{text-align:center;}
+
+img{
+	width: 29%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.insta{
+	width: 1%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
